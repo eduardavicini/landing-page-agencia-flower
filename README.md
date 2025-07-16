@@ -37,7 +37,7 @@ src/
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/agencia-flower-landingpage.git
+git clone git clone https://github.com/eduardavicini/landing-page-agencia-flower.git
 ```
 
 2. Acesse o diretório e instale as dependências:
