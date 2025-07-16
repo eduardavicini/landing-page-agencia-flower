@@ -1,12 +1,62 @@
-# React + Vite
+# 🚀 Agência Flower – Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page minimalista e responsiva desenvolvida com **React + Vite**, para uma agência fictícia de marketing digital. O projeto foi criado com foco em tipografia, layout limpo, usabilidade e organização de código.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- React.js
+- Vite
+- HTML semântico
+- CSS com Flexbox e responsividade
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📐 Estrutura do Projeto
+
+O projeto está dividido em componentes reutilizáveis para facilitar a manutenção e leitura do código:
+
+```bash
+src/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Services.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+│
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+## Como rodar o projeto
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/agencia-flower-landingpage.git
+```
+
+2. Acesse o diretório e instale as dependências:
+```bash
+cd agencia-flower-landingpage
+npm install
+```
+
+3. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+```
+## Aprendizados
+Esse projeto foi uma ótima oportunidade para:
+
+- Praticar componentização com React
+- Explorar a performance do Vite no ambiente de desenvolvimento
+- Trabalhar com responsividade e estruturação semântica
+- Criar uma landing page moderna do zero
+
+
+
